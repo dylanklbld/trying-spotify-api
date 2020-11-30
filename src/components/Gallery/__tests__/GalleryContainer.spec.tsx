@@ -12,7 +12,7 @@ describe('GalleryContainer', () => {
   })
 
   it('should render GalleryContainer with children and spinner', () => {
-    const {container} = render(<GalleryContainer isLoading={true}><p>OUTPUT</p></GalleryContainer>)
+    const {container} = render(<GalleryContainer isLoading={true}><p>OUTPUT</p><p>OUTPUT</p></GalleryContainer>)
     screen.getByTestId("spinner")
     expect(container).toMatchSnapshot()
   })
