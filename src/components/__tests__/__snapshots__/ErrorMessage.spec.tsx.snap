@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error Message should render 1`] = `
+<div>
+  <div
+    class="sc-bdfBwQ fZFSNC"
+  >
+    <h2
+      class="sc-hKgILt cHahJl"
+    >
+      Oops, something went wrong
+    </h2>
+    <div
+      class="sc-dlfnbm kLabmn"
+    >
+      Error occured
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Error Message should render with session expired message 1`] = `
+<div>
+  <div
+    class="sc-bdfBwQ fZFSNC"
+  >
+    <h2
+      class="sc-hKgILt cHahJl"
+    >
+      Oops, something went wrong
+    </h2>
+    <div
+      class="sc-dlfnbm kLabmn"
+    >
+      Error occured
+    </div>
+    <div
+      class="sc-gsTCUz cYeAWU"
+    >
+      Session is expired, please go to the start page
+    </div>
+    <a
+      href="/"
+    >
+      start page
+    </a>
+  </div>
+</div>
+`;

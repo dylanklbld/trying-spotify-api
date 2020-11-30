@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GalleryContainer should render GalleryContainer with children 1`] = `
+<div>
+  <div
+    class="sc-bdfBwQ dKNVSb"
+  >
+    <p>
+      OUTPUT
+    </p>
+  </div>
+</div>
+`;
+
+exports[`GalleryContainer should render GalleryContainer with children and spinner 1`] = `
+<div>
+  <div
+    class="sc-bdfBwQ eczmek"
+  >
+    <div
+      data-testid="spinner"
+      height="100"
+      width="100"
+    />
+    <p>
+      OUTPUT
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountrySelector should render 1`] = `
+<div>
+  <div
+    class="sc-bdfBwQ kyTowY"
+  >
+    <button
+      class="sc-gsTCUz kgbfGE"
+    >
+      Germany
+    </button>
+    <button
+      class="sc-gsTCUz kgbfGE"
+    >
+      Russia
+    </button>
+    <button>
+      🔄
+    </button>
+  </div>
+</div>
+`;
+
+exports[`CountrySelector should render with selected country 1`] = `
+<div>
+  <div
+    class="sc-bdfBwQ kyTowY"
+  >
+    <button
+      class="sc-gsTCUz kgbfGE"
+    >
+      Germany
+    </button>
+    <button
+      class="sc-gsTCUz cbhDZi"
+    >
+      Russia
+    </button>
+    <button>
+      🔄
+    </button>
+  </div>
+</div>
+`;

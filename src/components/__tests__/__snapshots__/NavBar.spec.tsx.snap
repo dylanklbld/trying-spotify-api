@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar should have specific active link 1`] = `
+<div>
+  <div
+    class="sc-bdfBwQ cCnEEX"
+  >
+    <ul
+      class="sc-gsTCUz jdJIlU"
+    >
+      <li
+        class="sc-hKgILt engOHZ"
+      >
+        <a
+          class="sc-dlfnbm kUMyuz"
+          href="/dashboard/a-b-c"
+        >
+          A B C
+        </a>
+      </li>
+      <li
+        class="sc-hKgILt engOHZ"
+      >
+        <a
+          aria-current="page"
+          class="sc-dlfnbm kUMyuz active"
+          href="/dashboard/path"
+        >
+          active-TEST
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`NavBar should render NavBar with links 1`] = `
+<div>
+  <div
+    class="sc-bdfBwQ cCnEEX"
+  >
+    <ul
+      class="sc-gsTCUz jdJIlU"
+    >
+      <li
+        class="sc-hKgILt engOHZ"
+      >
+        <a
+          class="sc-dlfnbm kUMyuz"
+          href="/dashboard/a-b-c"
+        >
+          A B C
+        </a>
+      </li>
+      <li
+        class="sc-hKgILt engOHZ"
+      >
+        <a
+          class="sc-dlfnbm kUMyuz"
+          href="/dashboard/test"
+        >
+          TEST
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`NavBar should render empty NavBar 1`] = `
+<div>
+  <div
+    class="sc-bdfBwQ cCnEEX"
+  >
+    <ul
+      class="sc-gsTCUz jdJIlU"
+    />
+  </div>
+</div>
+`;

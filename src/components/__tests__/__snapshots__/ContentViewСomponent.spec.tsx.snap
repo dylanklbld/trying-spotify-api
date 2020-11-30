@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentViewСomponent should have showMore button 1`] = `
+<div>
+  <div
+    id="scroll-top-anchor"
+  />
+  <div
+    class="sc-bdfBwQ dKNVSb"
+  >
+    <div>
+      data-0
+    </div>
+    <div>
+      data-1
+    </div>
+    <div>
+      data-2
+    </div>
+    <div>
+      data-3
+    </div>
+    <div>
+      data-4
+    </div>
+    <div>
+      data-5
+    </div>
+    <div>
+      data-6
+    </div>
+    <div>
+      data-7
+    </div>
+    <div>
+      data-8
+    </div>
+    <div>
+      data-9
+    </div>
+  </div>
+  <div
+    data-testid="scroll-button"
+  />
+  <div
+    class="sc-gsTCUz eBajvn"
+  >
+    <button
+      class="sc-dlfnbm elvkCX"
+    >
+      Show more
+    </button>
+  </div>
+</div>
+`;
+
+exports[`ContentViewСomponent should render simple case 1`] = `
+<div>
+  <div
+    id="scroll-top-anchor"
+  />
+  <div
+    class="sc-bdfBwQ dKNVSb"
+  >
+    <div>
+      data-0
+    </div>
+    <div>
+      data-1
+    </div>
+    <div>
+      data-2
+    </div>
+    <div>
+      data-3
+    </div>
+    <div>
+      data-4
+    </div>
+    <div>
+      data-5
+    </div>
+    <div>
+      data-6
+    </div>
+    <div>
+      data-7
+    </div>
+    <div>
+      data-8
+    </div>
+    <div>
+      data-9
+    </div>
+  </div>
+  <div
+    data-testid="scroll-button"
+  />
+  <div
+    class="sc-gsTCUz eBajvn"
+  />
+</div>
+`;
