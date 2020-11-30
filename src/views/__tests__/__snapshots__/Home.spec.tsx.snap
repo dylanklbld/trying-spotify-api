@@ -3,10 +3,10 @@
 exports[`HomePage should render HomePage 1`] = `
 <div>
   <div
-    class="login"
+    class="sc-gsTCUz hZPunq"
   >
     <button
-      class="sc-bdfBwQ brfkKw"
+      class="sc-bdfBwQ jXoCtL"
       type="submit"
     >
       Login to spotify
