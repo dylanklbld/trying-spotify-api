@@ -1,4 +1,4 @@
-import { fireEvent, render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 
 import GalleryContainer from '../GalleryContainer';
 import React from 'react';
@@ -16,5 +16,4 @@ describe('GalleryContainer', () => {
     screen.getByTestId("spinner")
     expect(container).toMatchSnapshot()
   })
-
 })

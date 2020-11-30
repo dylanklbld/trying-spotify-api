@@ -8,6 +8,9 @@ exports[`GalleryContainer should render GalleryContainer with children 1`] = `
     <p>
       OUTPUT
     </p>
+    <p>
+      OUTPUT
+    </p>
   </div>
 </div>
 `;
@@ -22,6 +25,9 @@ exports[`GalleryContainer should render GalleryContainer with children and spinn
       height="100"
       width="100"
     />
+    <p>
+      OUTPUT
+    </p>
     <p>
       OUTPUT
     </p>

@@ -3,10 +3,19 @@ import React, { ReactElement } from 'react'
 import styled from 'styled-components'
 
 const Button = styled.button`
-  background: palevioletred;
-  border-radius: 3px;
-  border: none;
-  color: white;
+    background: #1db954;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size:3em; 
+    &:hover{
+        cursor:pointer;
+    }
+`
+
+const Container = styled.div`
+    display: flex;
+    justify-content: center;
 `
 
 function Home():ReactElement {
@@ -21,11 +30,11 @@ function Home():ReactElement {
     };
 
     return (
-        <div className="login">
+        <Container>
             <Button type="submit" onClick={handleLogin}>
                 Login to spotify 
             </Button>
-        </div>
+        </Container>
     )
 }
 
