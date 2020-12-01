@@ -12,11 +12,9 @@ type CategoryItemType = {
     icons: Array<any>
 }
 
-
-
 const Wrapper = styled.div`
-  display: flex; /* unnecesary, only the container needs to be flex */
-  flex-direction: column; /* also unnecesary unless it's for purposes not shown in the example */
+  display: flex;
+  flex-direction: column;
   @media (min-width: 400px){ 
     max-width: 30%;
   }

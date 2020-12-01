@@ -32,6 +32,7 @@ function PlaylistsView(): React.ReactElement {
 
     useEffect(() => {
         refetch()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [selectedCountry])
 
     const items = getPlaylistsArray(data)

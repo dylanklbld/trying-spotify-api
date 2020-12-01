@@ -13,7 +13,6 @@ type PlaylistItemType = {
     images: Array<any>
 }
 
-
 const Image = styled.img`
     height: 100%; 
     width: 100%; 
@@ -49,7 +48,11 @@ const HoverFrame = styled.div`
 const SpotifyLink = styled.a`
     visibility: hidden;
     opacity: 0;
+    text-decoration: none;
     transition: visibility 0s, opacity 0.5s linear;
+    margin-right:auto;
+    margin-left:auto;
+    color: #09212D;
     
     ${Wrapper}:hover & {
         visibility: visible;
@@ -60,11 +63,11 @@ const SpotifyLink = styled.a`
 const Info = styled.div`
     text-overflow: ellipsis;
     width:100%;
-  padding-bottom: 0.7em;
-  margin: 10px 10px;
-  position: relative;
-  text-align: center;
-  color: white !important;
+    padding-bottom: 0.7em;
+    margin: 10px 10px;
+    position: relative;
+    text-align: center;
+    color: white !important;
 `
 
 export default function PlaylistItem({ data }: Props): ReactElement {
@@ -78,7 +81,7 @@ export default function PlaylistItem({ data }: Props): ReactElement {
             </HoverFrame>
             <Info>
                 <div dangerouslySetInnerHTML={{ __html: description }} />
-                <SpotifyLink href={external_urls?.spotify}>More on Spotify</SpotifyLink>
+                <SpotifyLink target="_blank" href={external_urls?.spotify}>More on Spotify</SpotifyLink>
             </Info>
         </Wrapper>
     )

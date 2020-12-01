@@ -24,8 +24,8 @@ const Image = styled.img`
 `
 
 export const Wrapper = styled.div`
-  display: flex; /* unnecesary, only the container needs to be flex */
-  flex-direction: column; /* also unnecesary unless it's for purposes not shown in the example */
+  display: flex;
+  flex-direction: column; 
   @media (min-width: 400px){ 
     max-width: 42%;
   }
@@ -101,19 +101,19 @@ const Info = styled.div`
 `
 
 const ReleaseTitle = styled.h3`
-  letter-spacing: 0.2em;
-  padding-bottom: 0.7em;
-  position: relative;
-  text-transform: uppercase;
-  text-align: center;
-  color: white !important;
-  opacity: 0;
-  visibility: hidden;
+    letter-spacing: 0.2em;
+    padding-bottom: 0.7em;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    color: white !important;
+    opacity: 0;
+    visibility: hidden;
     ${Wrapper}:hover & {
         visibility: visible;
         opacity: 1;
     }
-  `
+`
 
 const Artists = ({ list }: any): ReactElement => {
     return <ArtistsWrapping>

@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 
 import DashboardView from './DashboardView'
-import ErrorMessage from '../components/ErrorMessage'
 import Home from './Home'
 import RedirectHandler from '../components/RedirectHandler'
 import styled from 'styled-components'
@@ -26,6 +25,7 @@ export default function Root() {
      if(sessionIsAlive === false){
         history.push('/')
      }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [sessionIsAlive])
 
     return (
